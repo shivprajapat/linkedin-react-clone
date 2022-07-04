@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import {InputOption} from '../index'
+import {InputOption,Post} from '../index'
 import EditIcon from "@mui/icons-material/Edit";
 import ImageIcon from '@mui/icons-material/Image';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
@@ -24,6 +24,13 @@ const Feed = () => {
             <InputOption Icon={EventNoteIcon} title='Write Article'color='#7fc15e'/>
         </div>
       </div>
+      {/* Post */}
+      <Post 
+      name='shiv'
+      description='this is test comment'
+      message='Wow'
+      />
+      {/* ./Post */}
     </div>
   );
 };
