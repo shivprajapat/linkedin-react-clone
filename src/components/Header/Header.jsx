@@ -1,8 +1,8 @@
 import React from 'react'
-import './style.css'
+import './header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import logo from '../../Images/logo.png'
-import HeaderOption from '../HeaderOption';
+import HeaderOption from './HeaderOption';
 import HomeIcon from '@mui/icons-material/Home';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
