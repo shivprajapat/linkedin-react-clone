@@ -31,7 +31,7 @@ flex-direction: column;
 }
 
 .sidebar_top > h2{
-  
+  text-transform: capitalize;
     font-size: 18px;
 }
 .sidebar_stats{

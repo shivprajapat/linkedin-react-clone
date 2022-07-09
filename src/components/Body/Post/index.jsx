@@ -6,11 +6,11 @@ import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import ChatIcon from "@mui/icons-material/Chat";
 import SendIcon from "@mui/icons-material/Send";
 import ShareIcon from "@mui/icons-material/Share";
-const Post = ({ name, description, message }) => {
+const Post = ({ name, description, message,photoUrl }) => {
   return (
     <div className="post">
       <div className="post_header">
-        <Avatar />
+        <Avatar src={photoUrl} alt={name}/>
         <div className="post_info">
           <h3>{name}</h3>
           <p>{description}</p>
