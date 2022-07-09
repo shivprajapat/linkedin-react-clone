@@ -7,6 +7,14 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.headerOption img{
+
+}
+
+.headerOption svg{
+width: 30px;
+height: 30px;
+}
 .headerOption:hover{
     color: black;
 }
