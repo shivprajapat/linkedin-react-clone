@@ -5,13 +5,6 @@ import { auth } from "../../firebase";
 import "./style.css";
 import logoBig from "../../Images/logo-big.png";
 
-const initialState = {
-  name: "",
-  email: "",
-  password: "",
-  profilePic: "",
-};
-
 const Login = () => {
   const [name, setName] = useState("");
   const [profilePic, setProfilePic] = useState("");
